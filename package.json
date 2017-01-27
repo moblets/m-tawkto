@@ -1,0 +1,31 @@
+{
+  "name": "m-instagram",
+  "version": "1.0.0",
+  "description": "This is a new Instagram implementation.",
+  "main": "server/feed.js",
+
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moblets/m-instagram.git"
+  },
+  "author": "Eduardo Russo",
+  "license": "MIT",
+  "homepage": "https://github.com/moblets/m-instagram.git",
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "eslint-config-google": "^0.5.0",
+    "eslint-plugin-jsdoc": "^2.3.1",
+    "jsdoc": "^3.4.0"
+  },
+  "keywords": [
+    "example",
+    "base",
+    "Moblet",
+    "Moblets",
+    "FabApp",
+    "instagram"
+  ]
+}
