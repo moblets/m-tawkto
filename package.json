@@ -1,5 +1,5 @@
 {
-  "name": "m-instagram",
+  "name": "m-tawkto",
   "version": "1.0.0",
   "description": "This is a new Instagram implementation.",
   "main": "server/feed.js",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moblets/m-instagram.git"
+    "url": "git+https://github.com/moblets/m-tawkto.git"
   },
   "author": "Eduardo Russo",
   "license": "MIT",
-  "homepage": "https://github.com/moblets/m-instagram.git",
+  "homepage": "https://github.com/moblets/m-tawkto.git",
   "devDependencies": {
     "eslint": "^2.8.0",
     "eslint-config-google": "^0.5.0",
