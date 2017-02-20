@@ -32,26 +32,8 @@ module.exports = {
     // iframe.src = 'data:text/html;charset=utf-8,' + encodeURI(fakeBody);
 
     // element.append(iframe);
-  },
-  controller: function($timeout) {
-    function layout() {
-      $timeout(function() {
-        document.querySelector("#tawkchat-container").style.top = "43px";
-        document.querySelector("#tawkchat-container").style.bottom = "43px";
-        layout();
-      }, 1500);
-    }
-
-    window.Tawk_API = window.Tawk_API || {}; window.Tawk_API.disableMobileBackHistory = true;
-
-    window.Tawk_API.onChatStarted = function() {
-      layout();
-    };
-
-    window.Tawk_API.onLoad = function() {
-      layout();
-      window.Tawk_API.maximize();
-    };
+    window.Tawk_API = window.Tawk_API || {};
+    window.Tawk_API.disableMobileBackHistory = true;
     var s1 = document.createElement("script");
     var s0 = document.getElementsByTagName("script")[0];
     s1.async = true;
@@ -59,5 +41,38 @@ module.exports = {
     s1.charset = 'UTF-8';
     s1.setAttribute('crossorigin', '*');
     s0.parentNode.insertBefore(s1, s0);
+
+  },
+  controller: function() {
+
+
+
+    window.Tawk_API.maximize();
+    // function layout() {
+    //   $timeout(function() {
+    //     document.querySelector("#tawkchat-container").style.top = "43px";
+    //     document.querySelector("#tawkchat-container").style.bottom = "43px";
+    //     layout();
+    //   }, 1500);
+    // }
+
+    // window.Tawk_API = window.Tawk_API || {};
+    // window.Tawk_API.disableMobileBackHistory = true;
+
+    // window.Tawk_API.onChatStarted = function() {
+    //   layout();
+    // };
+
+    // window.Tawk_API.onLoad = function() {
+    //   layout();
+    //   window.Tawk_API.maximize();
+    // };
+    // var s1 = document.createElement("script");
+    // var s0 = document.getElementsByTagName("script")[0];
+    // s1.async = true;
+    // s1.src = 'https://embed.tawk.to/588b2e1163b0fb7e39a76aaa/default';
+    // s1.charset = 'UTF-8';
+    // s1.setAttribute('crossorigin', '*');
+    // s0.parentNode.insertBefore(s1, s0);
   }
 };
