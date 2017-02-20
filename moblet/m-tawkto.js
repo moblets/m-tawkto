@@ -52,17 +52,12 @@ module.exports = {
       layout();
       window.Tawk_API.maximize();
     };
-    if (document.querySelector("#tawkchat-container") === null) {
-      var s1 = document.createElement("script");
-      var s0 = document.getElementsByTagName("script")[0];
-      s1.async = true;
-      s1.src = 'https://embed.tawk.to/588b2e1163b0fb7e39a76aaa/default';
-      s1.charset = 'UTF-8';
-      s1.setAttribute('crossorigin', '*');
-      s0.parentNode.insertBefore(s1, s0);
-    } else {
-      window.Tawk_API.maximize();
-      layout();
-    }
+    var s1 = document.createElement("script");
+    var s0 = document.getElementsByTagName("script")[0];
+    s1.async = true;
+    s1.src = 'https://embed.tawk.to/588b2e1163b0fb7e39a76aaa/default';
+    s1.charset = 'UTF-8';
+    s1.setAttribute('crossorigin', '*');
+    s0.parentNode.insertBefore(s1, s0);
   }
 };
