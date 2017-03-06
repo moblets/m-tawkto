@@ -45,9 +45,7 @@ module.exports = {
   controller: function($scope, $timeout, $mAppDef, $mDataLoader) {
     $scope.moblet.isLoading = true;
     $scope.$watch("iframe", function() {
-      console.log($mAppDef.info());
-      console.log($scope.moblet);
-
+      $scope.info = $mAppDef.info();
       var dataLoadOptions = {
         offset: 0,
         cache: false
@@ -55,7 +53,16 @@ module.exports = {
       $mDataLoader.load($scope.moblet, dataLoadOptions)
           .then(function(data) {
             console.log(data);
-            $scope.iframe.src = "http://m.dev.app.vc/id/777118/tawkto/588b2e1163b0fb7e39a76aaa";
+            if (isDefined(data)) {
+              var url = $scope.info.app_share_url.split("dev").length > 1 ? "http://m.dev.app.vc/id/" : "http://m.app.vc/id/";
+              $scope.iframe.src = url + $scope.info.id + "/tawkto/" + data.id;
+              $scope.iframe.onload = function() {
+                $scope.moblet.isLoading = false;
+              };
+            } else {
+              $scope.moblet.isLoading = false;
+              $scope.moblet.noContent = true;
+            }
           }
         );
     });
