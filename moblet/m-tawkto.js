@@ -53,15 +53,20 @@ module.exports = {
       $mDataLoader.load($scope.moblet, dataLoadOptions)
           .then(function(data) {
             console.log(data);
-            if (isDefined(data)) {
+            if (isDefined(data.id)) {
               var url = $scope.info.app_share_url.split("dev").length > 1 ? "http://m.dev.app.vc/id/" : "http://m.app.vc/id/";
               $scope.iframe.src = url + $scope.info.id + "/tawkto/" + data.id;
               $scope.iframe.onload = function() {
-                $scope.moblet.isLoading = false;
+                $timeout(function() {
+                  $scope.moblet.isLoading = false;
+                  $scope.moblet.noContent = false;
+                }, 200);
               };
             } else {
-              $scope.moblet.isLoading = false;
-              $scope.moblet.noContent = true;
+              $timeout(function() {
+                $scope.moblet.isLoading = false;
+                $scope.moblet.noContent = true;
+              }, 200);
             }
           }
         );
