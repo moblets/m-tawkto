@@ -1,12 +1,12 @@
 {
   "moblet": {
-    "label": "tawkto",
-    "hint": "Importe boards do pinterest",
-    "description": "Preencha os campos abaixo para importar seu board"
+    "label": "Tawk.to",
+    "hint": "Crie conversas para entrar em contato com os seus usuários",
+    "description": "Crie conversas para entrar em contato com os seus usuários"
   },
   "id": {
-    "label": "Token de usuario no pintered",
-    "hint": "Insira seu token de usuário",
-    "placeholder": "token de usuário"
+    "label": "Id do site",
+    "hint": "Id do site",
+    "placeholder": "Id do site"
   }
 }
