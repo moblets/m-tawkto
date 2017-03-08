@@ -4,6 +4,10 @@
       "name": "id",
       "type": "text",
       "required": true
+    },
+    {
+      "name": "url",
+      "type": "copy-domain"
     }
   ]
 }

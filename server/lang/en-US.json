@@ -5,8 +5,12 @@
     "description": "Crie conversas para entrar em contato com os seus usuários"
   },
   "id": {
-    "label": "Id do site",
-    "hint": "Id do site",
-    "placeholder": "Id do site"
+    "label": "site id",
+    "hint": "site id",
+    "placeholder": "site id"
+  },
+  "url": {
+    "label": "Site URL",
+    "placeholder": "Copy the URL below and paste in tawk.to"
   }
 }
