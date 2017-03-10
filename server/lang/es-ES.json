@@ -1,0 +1,16 @@
+{
+  "moblet": {
+    "label": "Tawk.to",
+    "hint": "Cree nuevas conversaciones para entrar en contacto con sus usuarios!",
+    "description": "Cree nuevas conversaciones para entrar en contacto con sus usuarios"
+  },
+  "id": {
+    "label": "id del sitio",
+    "hint": "id del sitio",
+    "placeholder": "id del sitio"
+  },
+  "url": {
+    "label": "URL del sitio",
+    "placeholder": "Copie la URL abajo disponible y pegala en tawk.to"
+  }
+}
