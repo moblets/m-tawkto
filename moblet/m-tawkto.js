@@ -6,7 +6,7 @@ module.exports = {
   i18n: {
     pt: "lang/pt-BR.json",
     en: "lang/en-US.json",
-    es: "lang/es-ES.json,
+    es: "lang/es-ES.json"
   },
   link: function(scope, element) {
     scope.div = document.createElement('div');
