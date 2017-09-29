@@ -27,7 +27,7 @@ module.exports = {
           .then(function(data) {
             console.log(data);
             if (isDefined(data.id)) {
-              var url = $scope.info.app_share_url.split("dev").length > 1 ? "https://m.dev.app.vc/id/" : "http://m.app.vc/id/";
+              var url = $scope.info.app_share_url.split("dev").length > 1 ? "https://m.dev.app.vc/id/" : "https://m.app.vc/id/";
               $scope.iframe.src = url + $scope.info.id + "/tawkto/" + data.id;
               $scope.iframe.onload = function() {
                 $timeout(function() {
