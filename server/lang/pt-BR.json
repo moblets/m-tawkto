@@ -2,7 +2,8 @@
   "moblet": {
     "label": "Tawk.to",
     "hint": "Crie conversas para entrar em contato com os seus usuários",
-    "description": "Crie conversas para entrar em contato com os seus usuários"
+    "description": "Crie conversas para entrar em contato com os seus usuários",
+    "tutorial_link": "https://suporte.fabricadeaplicativos.com.br/hc/pt-br/articles/360024390311/"
   },
   "id": {
     "label": "id do site",
