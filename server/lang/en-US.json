@@ -5,7 +5,7 @@
     "description": "Create chats to get in touch with your users"
   },
   "id": {
-    "label": "site id",
+    "label": "Site ID",
     "hint": "site id",
     "placeholder": "site id"
   },

@@ -5,7 +5,7 @@
     "description": "Cree nuevas conversaciones para entrar en contacto con sus usuarios"
   },
   "id": {
-    "label": "id del sitio",
+    "label": "ID del sitio",
     "hint": "id del sitio",
     "placeholder": "id del sitio"
   },
