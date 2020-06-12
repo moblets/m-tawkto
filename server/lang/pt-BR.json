@@ -7,9 +7,7 @@
     "version": 2
   },
   "id": {
-    "label": "ID do site",
-    "hint": "id do site",
-    "placeholder": "id do site"
+    "label": "ID do site"
   },
   "url": {
     "label": "URL do site",

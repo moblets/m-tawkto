@@ -3,12 +3,11 @@
     "label": "Tawk.to",
     "hint": "Create chats to get in touch with your users",
     "description": "Create chats to get in touch with your users",
+    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3783324-chat",
     "version": 2
   },
   "id": {
-    "label": "Site ID",
-    "hint": "site id",
-    "placeholder": "site id"
+    "label": "Site ID"
   },
   "url": {
     "label": "Site URL",

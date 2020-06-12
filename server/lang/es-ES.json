@@ -3,12 +3,11 @@
     "label": "Tawk.to",
     "hint": "Cree nuevas conversaciones para entrar en contacto con sus usuarios!",
     "description": "Cree nuevas conversaciones para entrar en contacto con sus usuarios",
+    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3783324-chat",
     "version": 2
   },
   "id": {
-    "label": "ID del sitio",
-    "hint": "id del sitio",
-    "placeholder": "id del sitio"
+    "label": "ID del sitio"
   },
   "url": {
     "label": "URL del sitio",
