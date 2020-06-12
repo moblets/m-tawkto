@@ -2,7 +2,8 @@
   "moblet": {
     "label": "Tawk.to",
     "hint": "Cree nuevas conversaciones para entrar en contacto con sus usuarios!",
-    "description": "Cree nuevas conversaciones para entrar en contacto con sus usuarios"
+    "description": "Cree nuevas conversaciones para entrar en contacto con sus usuarios",
+    "version": 2
   },
   "id": {
     "label": "ID del sitio",

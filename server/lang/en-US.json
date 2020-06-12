@@ -2,7 +2,8 @@
   "moblet": {
     "label": "Tawk.to",
     "hint": "Create chats to get in touch with your users",
-    "description": "Create chats to get in touch with your users"
+    "description": "Create chats to get in touch with your users",
+    "version": 2
   },
   "id": {
     "label": "Site ID",

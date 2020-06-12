@@ -3,7 +3,8 @@
     "label": "Tawk.to",
     "hint": "Crie conversas para entrar em contato com os seus usuários",
     "description": "Crie conversas para entrar em contato com os seus usuários",
-    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3783324-chat"
+    "tutorial_link": "https://ajuda.fabapp.com/pt-BR/articles/3783324-chat",
+    "version": 2
   },
   "id": {
     "label": "ID do site",
