@@ -12,6 +12,6 @@
   },
   "url": {
     "label": "URL do site",
-    "placeholder": "Copie a URL abaixo e cole no tawk.to"
+    "description": "Copie a URL abaixo e cole no tawk.to"
   }
 }

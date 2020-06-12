@@ -11,6 +11,6 @@
   },
   "url": {
     "label": "URL del sitio",
-    "placeholder": "Copie la URL abajo disponible y péguela en tawk.to"
+    "description": "Copie la URL abajo disponible y péguela en tawk.to"
   }
 }

@@ -2,12 +2,13 @@
   "fields": [
     {
       "name": "id",
-      "type": "text",
-      "required": true
+      "type": "input",
+      "inputType": "text",
+      "required": true,
+      "validations": [{ "name": "required" }]
     },
     {
-      "name": "url",
-      "type": "copy-domain"
+      "type": "copyDomain"
     }
   ]
 }
