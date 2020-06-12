@@ -7,8 +7,6 @@
       "required": true,
       "validations": [{ "name": "required" }]
     },
-    {
-      "type": "copyDomain"
-    }
+    { "name": "url", "type": "copyDomain" }
   ]
 }
