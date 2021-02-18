@@ -7,7 +7,10 @@
     "version": 2
   },
   "id": {
-    "label": "ID do site"
+    "label": "ID primeira parte"
+  },
+  "id2": {
+    "label": "ID segunda parte"
   },
   "url": {
     "label": "URL do site",
