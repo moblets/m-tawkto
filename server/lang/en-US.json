@@ -7,10 +7,7 @@
     "version": 2
   },
   "id": {
-    "label": "ID first part"
-  },
-  "id2": {
-    "label": "ID second part"
+    "label": "Chat Direct Link"
   },
   "url": {
     "label": "Site URL",

@@ -1,17 +1,12 @@
 {
   "fields": [
+    { "name": "url", "type": "copyDomain" },
     {
       "name": "id",
       "type": "input",
       "inputType": "text",
       "required": true,
       "validations": [{ "name": "required" }]
-    },
-     {
-      "name": "id2",
-      "type": "input",
-      "inputType": "text"
-    },
-    { "name": "url", "type": "copyDomain" }
+    }
   ]
 }
